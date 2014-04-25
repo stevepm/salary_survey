@@ -1,6 +1,9 @@
 #Salary Survey
-------
+---
 
+##*Project Details*
+---
+Utilize [Chartkick](http://chartkick.com/)'s api to create surveys based on salaries.
 ##*Getting Started*
 -------
 1. run `rake db:create db:migrate` to create the DB and migrate to the latest
