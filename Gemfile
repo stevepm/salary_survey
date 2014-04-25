@@ -27,9 +27,6 @@ gem 'spring',        group: :development
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.14.2'
-end
-
-group :test do
   gem 'capybara', '~> 2.2.1'
 end
 
