@@ -34,4 +34,4 @@ group :test do
 end
 
 gem 'haml-rails', '~> 0.5.3'
-gem 'rails_12factor', '~> 0.0.2'
+gem 'rails_12factor', group: :production
