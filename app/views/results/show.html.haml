@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Survey:
+  = @result.survey_id
+%p
+  %b User:
+  = @result.user_id
+%p
+  %b Salary:
+  = @result.salary
+%p
+  %b Job title:
+  = @result.job_title
+
+= link_to 'Edit', edit_result_path(@result)
+\|
+= link_to 'Back', results_path

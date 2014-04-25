@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Company name:
+  = @survey.company_name
+%p
+  %b Expires at:
+  = @survey.expires_at
+
+= link_to 'Edit', edit_survey_path(@survey)
+\|
+= link_to 'Back', surveys_path
